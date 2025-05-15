@@ -115,7 +115,13 @@ To launch the project, simply open a terminal inside the project folder and run:
 
 This will start the full web interface, allowing you to interact with the agents using natural language. 
 
-## Section 3: Experimental Design
-To ensure that the answers provided by the agent were accurate, we decided to verify them manually. For each question, we compared the agent’s response with the result we obtained by running the same query in Python.
-We created a Google Sheet containing all the main questions, the agent's answers, our manual checks, and a column indicating whether the results matched (Yes or No).
-Here is the link: https://docs.google.com/spreadsheets/d/1TME5bDN4Kpig5EBdHYvW1UYpr-MtCxNtDnarzGVJBCA/edit?gid=0#gid=0 
+## Section 3 and 4 : Experimental Design
+To ensure that the answers **provided** by the agent were accurate, we decided to verify them manually. For each question, we compared the agent’s response with the result we obtained by running the same query in **Python**.
+We **created** a **Google Sheet** containing all the main questions, the agent's answers, our manual checks, and a column indicating whether the results matched (Yes or No).
+Here is the link: https://docs.google.com/spreadsheets/d/1TME5bDN4Kpig5EBdHYvW1UYpr-MtCxNtDnarzGVJBCA/edit?gid=0#gid=0
+
+
+## Section 5: Conculsion 
+This project showed us how **powerful** a **multi-agent system** can be when it comes to interacting with structured data in a more human way. Starting from a basic setup that didn’t work well, we **learned** through trial and error how important it is for all agents to be **smart** and work **together**. Once we equipped each agent with a **capable** model and the right **tools**, the system became able to understand **queries**, generate code, produce visualizations, and even explain the results in plain language. It was rewarding to see how much more accessible data becomes when the interaction feels conversational.
+
+That said, there are still things to improve. The **system** sometimes has trouble when the question is too complex. Also, while we **tested** many queries, there’s still no automatic way to tell if the answer is fully correct — we had to check that **manually**. In the future, it would be interesting to add more robust memory for **long conversations**, and maybe integrate some kind of automatic validation to better trust the **outputs**.
